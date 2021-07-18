@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "chai": "^4.3.4"
-  },
-  "devDependencies": {
-    "mocha": "^9.0.2"
+    "chai": "^4.3.4",
+    "chromedriver": "^87.0.5",
+    "fs-extra": "^8.1.0",
+    "mocha": "^7.1.1",
+    "protractor": "^7.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.8",
+    "winston": "^3.2.1",
+    "yargs": "^14.0.0"
   },
   "scripts": {
-    "test": "test"
+    "test": "protractor ./pages/config/protractor.config.js --disableChecks"
   },
   "repository": {
     "type": "git",

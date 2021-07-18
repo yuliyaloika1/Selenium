@@ -2,7 +2,7 @@ const yargs = require('yargs').argv;
 
 exports.config = {
 
-
+    directConnect:true,
 
     framework: 'mocha',
 
