@@ -13,7 +13,7 @@ describe('Results of skill search', function () {
         browser.waitForAngularEnabled(false);
         return browser.manage().window().maximize();
     });
-    it('selecting management positions', async function () { //все новое
+    it('selecting management positions', async function () { 
         await PageFactory.getPage('Careers').open();
         await PageFactory.getPage('Careers').acceptCookieAction();
         await PageFactory.getPage('Careers').wait(1000);
